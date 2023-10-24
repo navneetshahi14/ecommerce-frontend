@@ -50,7 +50,15 @@ nav{
         cursor: pointer;
         color: white;
     }
-
+    p{
+        position: absolute;
+        left: 80.2%;
+        background-color: red;
+        font-size: 0.9rem;
+        padding: 0.6px 3px;
+        border-radius: 100%;
+        top: -10px;
+    }
 
     button{
         padding: 5px 10px;

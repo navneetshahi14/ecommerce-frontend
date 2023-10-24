@@ -13,6 +13,7 @@ export default function Navbar() {
           <li><div>Kids</div></li>
         </ul>
         <i class="fa-solid fa-cart-shopping"></i>
+        <p>0</p>
         <button>Login</button>
       </nav>
     </>
