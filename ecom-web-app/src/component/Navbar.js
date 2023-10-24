@@ -7,13 +7,13 @@ export default function Navbar() {
       <nav>
         <span>NavneetClothing</span>
         <ul>
-          <li>Home</li>
-          <li>Mens</li>
-          <li>Womens</li>
-          <li>Kids</li>
+          <li><div>Home</div></li>
+          <li><div>Mens</div></li>
+          <li><div>Womens</div></li>
+          <li><div>Kids</div></li>
         </ul>
-        <button>Login</button>
         <i class="fa-solid fa-cart-shopping"></i>
+        <button>Login</button>
       </nav>
     </>
   )
