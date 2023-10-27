@@ -3,6 +3,11 @@
     background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
     display: flex;
     .HeroRight{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
         img{
             height: 80%;
         }
@@ -41,7 +46,12 @@
             gap: 15px;
             width: 310px;
             height: 70px;
-            
+            border-radius: 75px;
+            margin-top: 30px;
+            background: #ff4141;
+            color: #fff;
+            font-size: 22px;
+            font-weight: 500;
         }
     }
 }
