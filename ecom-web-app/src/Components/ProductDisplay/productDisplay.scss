@@ -1,0 +1,92 @@
+.productdisplay{
+    display: flex;
+    margin: 0 170px;
+    .product-Left{
+        display: flex;
+        gap: 17px;
+        .productDisplay-img-list{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            img{
+                height: 163px;
+            }
+        }
+        .productDisplay-img{
+            .MainImg{
+                width: 586px;
+                height: 700px;
+            }    
+        }
+    } 
+    .product-Right{
+        margin: 0px 70px;
+        display: flex;
+        flex-direction: column;
+        h1{
+            color: #3d3d3d;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .product-Right-star{
+            display: flex;
+            align-items: center;
+            margin-top: 13px;
+            gap: 5px;
+            color: #1c1c1c;
+            font-size: 16px;
+        }
+        .product-Right-price{
+            display: flex;
+            margin: 40px 0px ;
+            gap: 30px;
+            font-size: 24px;
+            font-weight: 700;
+            .product-right-price-old{
+                color: #818181;
+                text-decoration: line-through;
+            }
+            .product-right-price-new{
+                color: #ff4141;
+            }
+        }
+        .product-right-size{
+            h1{
+                margin-top: 55px;
+                color: #656565;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .product-right-sizes{
+                display: flex;
+                margin: 30px 0px;
+                gap: 20px;
+                div{
+                    padding: 18px 24px ;
+                    background: #fbfbfb;
+                    border: 1px solid #ebebeb;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+            }
+        }
+        button{
+            padding: 20px 40px;
+            width: 200px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: #ff4141;
+            margin-bottom: 40px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .product-right-category{
+            margin-top: 10px;
+            span{
+                font-weight: 600;
+            }
+        }
+    }
+}
